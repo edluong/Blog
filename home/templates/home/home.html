@@ -1,6 +1,35 @@
-{% extends "home/header.html" %}
-{% block content %}
 
-<H1>Coming Soon....</H1>
-
-{% endblock %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edmund Luong</title>
+        <meta charset="UTF-8">
+        {% load staticfiles %}
+        <link rel="stylesheet" type="text/css" href="{% static 'css/theme.css' %}">
+    </head>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home </a></li>
+            <li><a href="#">About </a></li>
+            <li><a href="#">Projects </a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav>
+    
+    <body>
+        <p>
+          <h5>Hi there, I'm</h5>
+          <h1>Edmund Luong</h1>
+        </p>
+    </body>
+    
+    <footer>
+        <ul>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Github</a></li>
+        </ul>
+        
+        <h6>2018 Edmund Luong. All rights reserved.</h6>
+    </footer>
+</html>

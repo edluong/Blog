@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+}
+
+#awesome-name{
+    font-family: Helvatica, sans-serif;
+}
+
+footer ul li{
+    display: inline-block;
+    padding-right: 2em;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;    
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-right: 2em;
+}
+
+a{
+  text-decoration: none;  
+  color: white;
+}
+
+
